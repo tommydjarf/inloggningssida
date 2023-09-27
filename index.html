@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hundklubben</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hundklubben</h1>
+      <hr />
+    </header>
+    <main>
+      <article>
+        <h2>Information & Regler</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+          consequuntur provident. Culpa aspernatur quo id, consequuntur porro
+          perspiciatis ab consequatur eveniet animi, natus mollitia facilis
+          eaque ratione voluptatem laudantium delectus? Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Officiis facere harum corrupti
+          quisquam voluptatem magni numquam laboriosam, sit consectetur iusto
+          quasi obcaecati, doloremque reprehenderit officia veniam totam facilis
+          quo eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Saepe dolor et sapiente tempora. Hic soluta exercitationem
+          perferendis, eaque quos, esse porro temporibus fuga quae placeat
+          similique explicabo ipsum. Aperiam, earum!
+        </p>
+      </article>
+      <section id="login">
+        <h2>Mina sidor</h2>
+        <div id="login-container" class="flex-container">
+          <input type="text" id="username" autocomplete="off" placeholder="Användarnamn" />
+          <input type="password" id="password" autocomplete="off" placeholder="Lösenord" />
+          <button onclick="login()">Logga in</button>
+          <div id="error"></div>
+        </div>
+        <div id="loggedin-container" class="flex-container" style="display: none">
+          <h3 id="loggedin"></h3>
+          <img src="./images/puppy-beagle.png" alt="Bild på en hund">
+          <button onclick="logout()">Logga ut</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <hr />
+      <p>&copy; 2023 Allt material är skyddat av upphovsrätten.</p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,81 @@
+html,
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 0 10% 0 10%;
+  margin: 2rem;
+}
+
+article, section {
+  width: 100%;
+  border: 2px solid #E9DAC1;
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 1rem;
+  max-width: 30rem;
+  height: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 25% 0 25%;
+}
+
+footer {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #54BAB9;
+  text-shadow: 1px 1px black;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+#loggedin {
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  border: 0.5rem solid #E9DAC1;
+  border-radius: 0.5rem;
+}
+
+input, button {
+  padding: 0.25rem;
+  margin-bottom: 1rem;
+  background-color: #F7ECDE;
+  border: 2px solid #E9DAC1;
+  border-radius: 1rem;
+}
+
+button {
+  width: 6rem;
+}
+
+img {
+  width: 130%;
+  padding: 1rem;
+}
